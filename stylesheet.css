@@ -1,0 +1,43 @@
+.root {
+	/* -fx-background-color: */
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-font-size: 40;
+	-fx-background-color: #ffffff;
+	
+}
+
+.pil {
+	-fx-background-radius: 0;
+	-fx-background-color: #000000;
+	-fx-text-fill: #ffffff;
+	
+}
+
+.button-black {
+	-fx-background-radius: 0;
+	-fx-background-color: #000000;
+}
+
+.button-black:focused {
+    -fx-background-radius: 0;
+	-fx-background-color: #000000;
+	-fx-background-insets: 0 0 -1 0, 0, 1, 2;
+}
+
+.button-white {
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 0;
+}
+
+.button-red {
+	-fx-background-color: #ff0000;
+	-fx-background-radius: 0;
+}
+.button-white:hover {
+	-fx-background-color: red;
+}
+
+.button-white:pressed {
+	-fx-background-color: #990000;
+}
